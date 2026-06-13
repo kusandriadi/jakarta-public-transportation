@@ -1,9 +1,9 @@
 # Transjakarta — Non-BRT, Mikrotrans, Royaltrans, Transjabodetabek
 
 Companion to `transjakarta.md` (BRT corridors). Route lists ≈ June 2026; these
-change often — confirm in the **Tije** app. Per-route halte detail comes from
-official route maps at `https://smk.transjakarta.co.id/aset/berkas/rute/<CODE>-<date>.jpg`
-(see `assets/routes/` for any captured locally).
+change often — confirm in the **Tije** app. Per-route halte detail (when
+available) is in **`routes-haltes.md`**, transcribed from the official route-map
+images at `https://smk.transjakarta.co.id/aset/berkas/rute/<CODE>-<date>.jpg`.
 
 ---
 

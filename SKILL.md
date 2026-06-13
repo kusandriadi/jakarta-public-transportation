@@ -68,11 +68,13 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
    X stop near Y"), look up the route in `references/routes-haltes.md` — it has
    the full ordered halte list for both directions of all 208 routes.
    **Catatan cakupan:** `routes-haltes.md` lengkap untuk **semua BRT/koridor +
-   pengumpan + Mikrotrans (JAK)**, tapi **hanya sebagian** Royaltrans/
-   Transjabodetabek (kode B/D/P/S/T/SH — mis. S21, B25, T11) yang punya detail
-   halte. Kalau kode regional tidak ada di `routes-haltes.md`, pakai
-   `references/transjakarta-feeder.md` untuk asal–tujuannya, dan jangan klaim
-   urutan halte yang tidak kamu punya.
+   pengumpan + Mikrotrans (JAK)**, tapi **hanya segelintir** Royaltrans/
+   Transjabodetabek (kode huruf B/D/S) yang punya detail halte — yang ada
+   **cuma**: **S12, S14, S31, B13, B14, D31, D32**. Banyak kode regional populer
+   (mis. **S21, B25, T11, P11, D11**) **TIDAK ada** urutan haltenya di sini. Kalau
+   kode regional tidak ada di `routes-haltes.md`, pakai
+   `references/transjakarta-feeder.md` untuk asal–tujuannya saja, dan **jangan
+   klaim urutan halte yang tidak kamu punya**.
 4. **Note transfers & integration.** Call out where the user changes systems and
    whether it's a paid-area integration or a walk/skybridge.
 5. **Sebut perkiraan biaya.** Pakai `references/fares.md` untuk kasih estimasi
