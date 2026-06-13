@@ -197,8 +197,9 @@ TJ saja atau KRL saja.
   (Sudirman) ↔ LRT Jabodebek (Dukuh Atas BNI) ↔ KA Bandara (BNI City) ↔
   Transjakarta. Connect almost any system here.
 - **Bundaran HI** — MRT ↔ Transjakarta (Koridor 1).
-- **CSW / ASEAN** — Transjakarta (Koridor 1, 13, 13B, 13E, dll.) ↔ MRT ASEAN. Hub
-  utama untuk masuk jaringan MRT dari selatan (Ciledug, Bintaro, Kebayoran).
+- **CSW / ASEAN** — Transjakarta (Koridor 1, 13, 13B, 13E, dll.) ↔ MRT ASEAN via
+  **jembatan/skybridge** langsung. Hub utama untuk masuk jaringan MRT dari selatan
+  (Ciledug, Bintaro, Kebayoran).
 - **Velbak** — Transjakarta Koridor 13 ↔ Koridor 8 (koneksi ke Kebayoran/Koridor 8)
   dan terhubung via **skywalk** langsung ke **Stasiun KRL Kebayoran** (jalan kaki).
   Titik transit penting untuk pindah dari Koridor 13 ke Koridor 8 atau ke KRL.

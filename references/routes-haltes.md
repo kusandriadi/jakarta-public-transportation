@@ -561,19 +561,20 @@ Kode: koridor BRT 1–14 & lintas-koridor (mis. 2A, 3F, L13E) + pengumpan (mis. 
 - Jam: 05.00–22.00 (Siang/Harian); 22.00–05.00 (Malam) (Setiap hari)
 - Arah 1 (Tegal Mampang → CBD Ciledug): Rawa Barat · Pasar Santa · CSW · Mayestik · Velbak · Kebayoran Lama · Seskoal · Cipulir · Swadarma ParagonCorp · JORR · Petukangan D'MASIV · Puri Beta 1 · CBD Ciledug (loop bawah)
 - Arah 2 (Tegal Mampang → Puri Beta 2): (rute searah di koridor layang; halte sama dengan Arah 1, putar balik via Puri Beta 2 — Hanya dilintasi pukul 22.00–05.00 WIB)
-- Transfer: Tegal Mampang (5N, 7B, 13B, 13E, 13E); CSW (1, 1C, 1M, 4K, 6M, 7B, 8D, 8E, 13B, 13E, 13E, S61, T31, BRT); Velbak (8, 8N, 9E, BRT); Petukangan D'MASIV (13B, 13E, 13E)
+- Transfer: Tegal Mampang (5N, 7B, 13B, 13E); CSW (1, 1C, 1M, 4K, 6M, 7B, 8D, 8E, 13B, 13E, S61, T31, BRT); Velbak (8, 8N, 9E, BRT); Kebayoran Lama (KRL); Petukangan D'MASIV (13B, 13E)
 
 ### 13B — Puri Beta - Pancoran
 - Jam: 05.00–22.00 (Setiap hari)
 - Arah 1 (Puri Beta 2 → Pancoran Arah Timur): Puri Beta 1 · Petukangan D'MASIV · JORR · Swadarma ParagonCorp · Cipulir · Seskoal · Kebayoran Lama · Velbak · Mayestik · CSW · Pasar Santa · Rawa Barat · Tegal Mampang · Pancoran Arah Barat
-- Transfer: Puri Beta 2 (13, 13E); Velbak (13, 13E); CSW (13, 13E, BRT); Pasar Santa (13); Tegal Mampang (5N, 6V, 7B, 13, 13E); Pancoran Arah Barat (9, 9A, 9C, BRT); Pancoran Arah Timur (9, 9A, 9C, BRT)
+- Transfer: Puri Beta 2 (13, 13E); Kebayoran Lama (KRL); Velbak (8, 8N, 9E, 13, 13E, BRT); CSW (13, 13E, BRT); Pasar Santa (13); Tegal Mampang (5N, 6V, 7B, 13, 13E); Pancoran Arah Barat (9, 9A, 9C, BRT); Pancoran Arah Timur (9, 9A, 9C, BRT)
 
 
-### 13E — Puri Beta 2 - Flyover Kuningan
-- Jam: 05.00–22.00 (Akhir pekan/WE)
-- Arah 1 (Puri Beta 2 → Flyover Kuningan): Puri Beta 2 · Puri Beta 1 · Petukangan D'MASIV · JORR · Swadarma ParagonCorp · Cipulir · Seskoal · Kebayoran Lama · Velbak · Mayestik · CSW · Pasar Santa · Rawa Barat · Tegal Mampang · Simpang Kuningan · Underpass Kuningan · Patra Kuningan · Kuningan · Rasuna Said · Karet Kuningan · Kuningan Madya · Setiabudi · Flyover Kuningan
-- Arah 2 (loop / kolom tunggal — sama dengan Arah 1, arah balik)
-- Transfer: CSW (1, 1C, 1M, 4K, 6M, 7B, 8D, 8E, 13, 13B, 13E; Halte BRT); Flyover Kuningan (4D, 6, 6M)
+### 13E — Puri Beta 2 - Flyover Kuningan (Ekspres / L13E)
+- Jam: 05.00–22.00 (Hari kerja & Akhir pekan, WD & WE)
+- Ekspres — hanya berhenti di halte di bawah; melewati (skip) JORR, Swadarma ParagonCorp, Cipulir, Seskoal, Kebayoran Lama, Mayestik, Pasar Santa, Rawa Barat
+- Arah 1 (Puri Beta 2 → Flyover Kuningan): Puri Beta 1 · Petukangan D'MASIV · Velbak · CSW · Tegal Mampang · Simpang Kuningan · Underpass Kuningan · Patra Kuningan · Kuningan · Rasuna Said · Karet Kuningan · Kuningan Madya · Setiabudi · Flyover Kuningan
+- Arah 2 (Flyover Kuningan → Puri Beta 2): halte sama, arah balik (Simpang Kuningan & Underpass Kuningan hanya disinggahi searah)
+- Transfer: Puri Beta 2 (13); Velbak (8, KRL); CSW (1, 1C, 1M, 4K, 6M, 7B, 8D, 8E, 13, 13B, BRT, MRT); Tegal Mampang (7B); Underpass Kuningan (9, 9A, 9C); Kuningan (6, 6A, 6H, 6M, LRT); Rasuna Said (LRT); Setiabudi (4D, 6H); Flyover Kuningan (4D, 6, 6M)
 
 ### 14 — Jakarta International Stadium - Senen
 - Jam: 00.00–23.59 (Setiap hari, WD & WE, siang & malam)
