@@ -171,10 +171,10 @@ perjalanan yang ditanyakan** (atau jam tiba yang jelas dari konteks). Bandingkan
 door-to-door: akses awal + tunggu + perjalanan utama + transit + last-mile.
 Stasiun yang sedikit lebih jauh bisa lebih cepat bila akses jalannya lancar;
 stasiun yang lebih dekat belum tentu praktis bila jalan menuju tujuan macet.
-Setiap kalimat perbandingan seperti “Cisauk lebih dekat/praktis daripada Serpong”
-WAJIB disertai jarak numerik dari **masing-masing** titik ke tujuan, misalnya
-“Cisauk → tujuan: X km; Serpong → tujuan: Y km”. Dilarang menyimpulkan “Serpong
-lebih jauh” atau memilih titik berdasarkan kedekatan jika jarak kedua opsi belum
+Setiap kalimat perbandingan “opsi A lebih dekat/praktis daripada opsi B” WAJIB
+disertai jarak numerik dari **masing-masing** titik ke tujuan, misalnya “opsi A
+→ tujuan: X km; opsi B → tujuan: Y km”. Dilarang menyimpulkan suatu opsi “lebih
+jauh” atau memilih titik berdasarkan kedekatan jika jarak kedua opsi belum
 diperiksa.
 
 Gunakan estimasi lalu lintas/rute terkini bila tersedia. Jika tidak ada data live,
