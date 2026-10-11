@@ -55,7 +55,14 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
 1. **Identify endpoints.** Map the origin & destination to a station/area in the
    reference docs. Many place names map to a known stop (e.g. "Sudirman" → KRL
    Sudirman / MRT Dukuh Atas / LRT Dukuh Atas cluster).
-2. **Pick the system(s) — optimalkan KEDUANYA: tercepat & termurah.** Rail
+2. **Cari perjalanan langsung lebih dulu — semua moda.** Periksa apakah satu
+   kereta/lin, rute bus, atau layanan langsung melayani asal dan tujuan (atau
+   halte/stasiun terdekat ke keduanya). Jika ada dan masih beroperasi, utamakan
+   itu; jangan memutar ke hub/terminus lalu kembali melewati arah yang sama.
+   Baru tambahkan transit bila tidak ada layanan langsung, ada gangguan operasi,
+   atau opsi transfer terbukti jauh lebih cepat/praktis. Jika menyarankan opsi
+   transfer yang lebih cepat, tetap jelaskan opsi langsung yang lebih sederhana.
+3. **Pilih moda — optimalkan waktu dan biaya setelah rute langsung dicek.** Rail
    (MRT/LRT/KRL) is faster over distance and unaffected by traffic; Transjakarta
    reaches far more neighborhoods. Prefer a single rail line if both endpoints sit
    on one. Otherwise chain via an **interchange** (see below). **Selalu timbang
@@ -69,7 +76,7 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
    sama di **Lin Rangkasbitung**; naik langsung arah Serpong/Rangkasbitung tanpa
    pindah di Tanah Abang. Tanah Abang hanya perlu jika perjalanan memang perlu
    ganti lin atau operator mengumumkan gangguan operasi.
-3. **Give the path:** which line/corridor, direction (toward which terminus),
+4. **Give the path:** which line/corridor, direction (toward which terminus),
    where to transfer, and final stop. Keep it concrete and ordered. For
    stop-level Transjakarta questions ("which halte do I get off at", "does route
    X stop near Y"), look up the route in `references/routes-haltes.md` — it has
@@ -82,9 +89,9 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
    kode regional tidak ada di `routes-haltes.md`, pakai
    `references/transjakarta-feeder.md` untuk asal–tujuannya saja, dan **jangan
    klaim urutan halte yang tidak kamu punya**.
-4. **Note transfers & integration.** Call out where the user changes systems and
+5. **Note transfers & integration.** Call out where the user changes systems and
    whether it's a paid-area integration or a walk/skybridge.
-5. **Sebut perkiraan biaya.** Pakai `references/fares.md` untuk kasih estimasi
+6. **Sebut perkiraan biaya.** Pakai `references/fares.md` untuk kasih estimasi
    tarif tiap leg + total. Kalau lintas TJ+MRT+LRT, ingatkan **cap tarif
    integrasi Jak Lingko ≈ Rp 10.000**. Angka rupiah bisa berubah — kasih
    estimasi + caveat "cek app resmi (Tije/MRT-J/KRL Access) untuk tarif live".
@@ -111,6 +118,11 @@ JANGAN kirim — perbaiki dulu:
       `routes-haltes.md` untuk rute yang benar-benar lewat halte tujuan.
 - [ ] **Gak muter.** Tujuan dekat dari stasiun/halte terakhir? Turun aja, ojol/
       jalan kaki. Gak usah tambah 2-3x transit.
+- [ ] **Cek layanan langsung untuk semua moda.** Apakah ada satu lin/kereta/rute
+      bus langsung dari asal ke tujuan atau titik terdekat? Jika ada, jangan
+      arahkan ke hub/terminus berlawanan arah lalu balik lagi. Transit hanya jika
+      perlu atau jelas memperbaiki waktu/praktis; bila ada, tetap sebut opsi
+      langsung yang sederhana.
 - [ ] **MRT dipertimbangkan.** Kalau bisa masuk jaringan MRT via TJ/KRL, itu
       harus jadi salah satu opsi.
 - [ ] **Setiap leg punya: kode rute + halte naik + arah + halte turun.**
@@ -125,12 +137,17 @@ sebelum jawab. Jangan ngarang.
 
 ### Routing quality rules (MUST follow)
 
-**Minimize unnecessary transfers.** Jangan suruh pengguna transit 2-3 kali kalau
-destinasinya udah dekat dari stasiun/halte terakhir. Contoh: dari Tanah Abang ke
-tempat yang dekat Tanah Abang (Gedung Sarana Jaya, Monas, dsb.) → cukup turun di
-Tanah Abang terus jalan kaki/ojol, **jangan** disuruh transit lagi ke Manggarai
-lalu Gondangdia. Selalu cek jarak dari stasiun terakhir ke tujuan sebelum
-menambah leg tambahan.
+**Direct route first; no detours (all modes).** Before composing directions,
+check the ordered stations/stops and service directions for each plausible
+single-line or single-route journey. If a direct service reaches the destination
+or a nearby stop, recommend it first. Never route away from the destination to a
+hub/terminus and back along the same corridor merely because that hub is a
+transfer point. Example: Kebayoran → Rawa Buntu/Cisauk stays on Lin Rangkasbitung
+southbound; do not go north to Tanah Abang and transfer back south. Transfer only
+when required to change service, an operator alert calls for it, or a clearly
+better alternative is explained alongside the direct option. Check last-mile
+distance before adding any extra leg; if close, offer walk/ojol rather than
+another transit.
 
 **Transjakarta, angkot, feeder, Mikrotrans: selalu sebut kode rute spesifik.**
 Jangan tulis "naik TJ", "Koridor 13", atau "angkot" saja. Dalam satu koridor bisa
@@ -182,9 +199,10 @@ dengan sistem lain, eksplorasi kombinasi:
   dengan tujuan, ojol terakhir)
 
 Intinya: lihat peta interchange hub di bawah, dan gunakan kombinasi sistem yang
-memberikan rute terbaik ke tujuan. Sedikit transit itu bagus. Kadang 1x transit
-via MRT jauh lebih cepat dari 0x transit TJ yang kena macet. Jangan rigid satu
-sistem doang.
+memberikan rute terbaik ke tujuan, **tetapi hub bukan tujuan**: jangan transit
+hanya karena bisa. Utamakan opsi langsung bila wajar; bila kombinasi moda
+benar-benar jauh lebih cepat/praktis, jelaskan alasannya dan tetap tampilkan opsi
+langsung yang tidak memutar. Jangan rigid satu sistem doang.
 
 **Optimalkan tercepat DAN termurah — kalau beda, kasih dua opsi.** Tujuan akhir
 adalah rute **terbaik**, bukan cuma tercepat. Banyak kasus rute tercepat
