@@ -19,9 +19,10 @@ Reference + routing helper for Jabodetabek public transport. **Always ground
 answers in the `references/` docs below — do not improvise station names or
 corridor numbers from memory.**
 
-> Data captured **June 2026** from Transjakarta, MRT Jakarta, LRT Jakarta, KAI
-> Commuter (KRL) sources. Networks change (new stations, renamed stops, schedule
-> shifts). For live departures, fares, and service alerts, tell the user to check
+> Reference data has different capture dates; see each file's source note. The KRL
+> map was refreshed from KAI Commuter's published map on **11 Oct 2026**. Networks
+> change (new stations, renamed stops, schedule shifts). For live departures,
+> fares, and service alerts, tell the user to check
 > the official apps: **Tije** (Transjakarta), **MRT-J**, **KRL Access /
 > C-Access** (KAI Commuter).
 
@@ -62,6 +63,12 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
    untuk jarak jauh, TJ Rp 3.500 flat, KA Bandara/Royaltrans/ojol mahal. Kalau
    **rute tercepat ≠ rute termurah**, kasih **dua opsi** dan beri label jelas
    (lihat aturan di bawah).
+   **Khusus KRL: cek urutan stasiun pada lin terlebih dahulu.** Jika asal dan
+   tujuan berada di lin yang sama, cari kereta langsung searah dan jangan
+   menambahkan transit ke hub/terminus. Contoh: **Kebayoran → Rawa Buntu** sama-
+   sama di **Lin Rangkasbitung**; naik langsung arah Serpong/Rangkasbitung tanpa
+   pindah di Tanah Abang. Tanah Abang hanya perlu jika perjalanan memang perlu
+   ganti lin atau operator mengumumkan gangguan operasi.
 3. **Give the path:** which line/corridor, direction (toward which terminus),
    where to transfer, and final stop. Keep it concrete and ordered. For
    stop-level Transjakarta questions ("which halte do I get off at", "does route
@@ -141,6 +148,10 @@ Contoh jawaban salah: "Naik Koridor 13 → turun di Kuningan" (bisa 13, 13B, ata
 
 **KRL: sebutkan nama lin.** Setiap leg KRL harus menyebutkan nama lin dan arah.
 Contoh: "Naik **Lin Rangkasbitung** arah Tanah Abang → turun di Tanah Abang".
+Sebelum menyarankan transit KRL, cocokkan asal dan tujuan dengan urutan stasiun
+di `references/krl.md`. Jangan menganggap Tanah Abang wajib dilewati hanya karena
+tercantum sebagai terminus atau hub. Kebayoran → Rawa Buntu adalah perjalanan
+langsung Lin Rangkasbitung; arah Serpong/Rangkasbitung, turun di Rawa Buntu.
 
 **Jangan sekali-kali suruh "naik angkot" tanpa kode rute.** Kata "angkot" itu
 tidak spesifik — gak ada yang tahu angkot mana. Kalau ada Jak Lingko (JAK) atau

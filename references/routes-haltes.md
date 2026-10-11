@@ -3,6 +3,9 @@
 Setiap rute dengan urutan halte lengkap kedua arah + jam operasi + titik
 transfer. Sumber: peta rute resmi Transjakarta
 (`smk.transjakarta.co.id/aset/berkas/rute/`), dibaca ≈ Juni 2026 — **208 rute**.
+Snapshot peta resmi terbaru berhasil diambil 11 Okt 2026 (206 file gambar unik),
+tetapi OCR penuh dan rekonsiliasi isi file ini belum dijalankan; isi di bawah
+tetap snapshot lama, bukan klaim data Transjakarta terkini.
 Rute berubah berkala; verifikasi di app **Tije**.
 
 Kode: koridor BRT 1–14 & lintas-koridor (mis. 2A, 3F, L13E) + pengumpan (mis. 7D,

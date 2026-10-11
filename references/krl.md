@@ -1,8 +1,11 @@
 # KRL Commuter Line (KAI Commuter) + KA Bandara
 
 Heavy-rail commuter network across Jabodetabek + Merak. Source: KAI Commuter
-Jabodetabek & Merak route map (see `../assets/krl-map.png`). **Manggarai** is the
-central interchange for most lines.
+Jabodetabek & Merak route map (see `../assets/krl-map.png`, refreshed 11 Oct
+2026) and [KAI Commuter](https://www.commuterline.id/). The published
+[Jabodetabek timetable effective 13 Dec 2025](https://www.commuterline.id/files/download/documents/Jadwal%20Commuter%20Line%20Jabodetabek%20-%20Mulai%2013%20Desember%202025.pdf)
+is the latest schedule document found during this refresh; confirm live operation
+in C-Access. **Manggarai** is the central interchange for most lines.
 
 > Station ordering below is terminus-to-terminus. Lines share track through the
 > central area, so transfers happen at Manggarai, Tanah Abang, Duri, Jatinegara,
@@ -43,6 +46,13 @@ Kranji → Cakung → Klender Baru → Buaran → Klender → **Jatinegara** (ju
 **Tanah Abang** → Palmerah → Kebayoran → Pondok Ranji → Jurang Mangu → Sudimara →
 Rawa Buntu → Serpong → Cisauk → Cicayur → Jatake → Parung Panjang → Cilejit →
 Daru → Tenjo → Tigaraksa → Cikoya → Maja → Citeras → **Rangkasbitung**
+
+**Direct-route check:** Kebayoran and Rawa Buntu are both stops on this line.
+Travel between them is direct in either direction: board a Lin Rangkasbitung
+train toward Serpong/Rangkasbitung from Kebayoran and get off at Rawa Buntu.
+**Do not route via or transfer at Tanah Abang** for this trip. Use Tanah Abang
+only when changing to another line or when an operator service alert requires it.
+For BSD City/Nava Park, plan the last-mile leg separately from Rawa Buntu.
 
 ---
 

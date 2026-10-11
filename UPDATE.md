@@ -19,7 +19,11 @@ This: fetches the 5 Transjakarta listing pages (`brt`, `angkutan-pengumpan`,
 `mikrotrans`, `royaltrans`, `wisata`), extracts every route-map image URL,
 downloads all images to `/tmp/jakarta-public-transportation-update/tjroutes/`, writes
 `/tmp/jakarta-public-transportation-update/route_files.json` (the path list), and refreshes
-`assets/krl-map.png`. Note the route count it prints (was 208 on 2026-06-07).
+`assets/krl-map.png`. Record the number as **unique map-image files**, not route
+definitions: listings can overlap and one service can have multiple image
+revisions. On 2026-10-11 this fetched 206 unique images. Compare OCR output by
+route code, not by image count; document missing/unreadable codes instead of
+assuming both counts must match.
 
 ## 2. OCR the route images (workflow — the slow, token-heavy step)
 
@@ -58,7 +62,11 @@ These aren't fully scripted — re-read the sources and update the prose files:
 
 - **`references/krl.md`** — re-read the refreshed `assets/krl-map.png` (crop &
   zoom regions for small text, e.g. the Merak line) and verify every line +
-  station. Sources: the KAI Commuter Jabodetabek & Merak map.
+  station. Sources: the KAI Commuter Jabodetabek & Merak map. **Routing QA:**
+  before proposing a transfer, check both endpoint stations against the ordered
+  line sequence. If both occur on one line, give the direct train. Example:
+  Kebayoran → Rawa Buntu is direct on Lin Rangkasbitung; do not route via Tanah
+  Abang unless a live operator alert requires it.
 - **`references/mrt-lrt.md`** — MRT Jakarta, LRT Jakarta, LRT Jabodebek lines &
   stations. Official sites are JS-rendered; Wikipedia (`Jakarta_MRT`,
   `LRT_Jakarta`, `Jabodebek_LRT`) is the reliable static source.
