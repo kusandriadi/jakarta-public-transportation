@@ -147,11 +147,17 @@ Contoh jawaban benar: "Naik **13E** (arah Flyover Kuningan) dari **Halte CBD Cil
 Contoh jawaban salah: "Naik Koridor 13 → turun di Kuningan" (bisa 13, 13B, atau 13E — cuma 13E yang nyampe Kuningan).
 
 **KRL: sebutkan nama lin.** Setiap leg KRL harus menyebutkan nama lin dan arah.
-Contoh: "Naik **Lin Rangkasbitung** arah Tanah Abang → turun di Tanah Abang".
+Contoh: "Dari **Kebayoran**, naik **Lin Rangkasbitung arah Rangkasbitung** dan
+turun di **Cisauk**" (atau **Rawa Buntu** jika itu stasiun tujuan). Ini langsung,
+tanpa transit di Tanah Abang.
 Sebelum menyarankan transit KRL, cocokkan asal dan tujuan dengan urutan stasiun
 di `references/krl.md`. Jangan menganggap Tanah Abang wajib dilewati hanya karena
 tercantum sebagai terminus atau hub. Kebayoran → Rawa Buntu adalah perjalanan
 langsung Lin Rangkasbitung; arah Serpong/Rangkasbitung, turun di Rawa Buntu.
+Kebayoran → Cisauk juga langsung pada lin yang sama. **Jawaban yang menyuruh
+naik dari Kebayoran ke Tanah Abang lalu pindah ke Lin Rangkasbitung adalah salah**:
+Tanah Abang berada di sisi Jakarta dari Kebayoran, sedangkan Rawa Buntu, Serpong,
+dan Cisauk berada di sisi selatan pada rangkaian yang sama.
 
 **Jangan sekali-kali suruh "naik angkot" tanpa kode rute.** Kata "angkot" itu
 tidak spesifik — gak ada yang tahu angkot mana. Kalau ada Jak Lingko (JAK) atau

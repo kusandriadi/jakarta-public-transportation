@@ -52,6 +52,8 @@ Travel between them is direct in either direction: board a Lin Rangkasbitung
 train toward Serpong/Rangkasbitung from Kebayoran and get off at Rawa Buntu.
 **Do not route via or transfer at Tanah Abang** for this trip. Use Tanah Abang
 only when changing to another line or when an operator service alert requires it.
+The same applies to **Kebayoran → Cisauk**: stay on the Lin Rangkasbitung train
+toward Rangkasbitung; do not ride north to Tanah Abang and backtrack south.
 For BSD City/Nava Park, plan the last-mile leg separately from Rawa Buntu.
 
 ---
