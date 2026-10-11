@@ -66,7 +66,10 @@ These aren't fully scripted — re-read the sources and update the prose files:
   before proposing a transfer, check both endpoint stations against the ordered
   line sequence. If both occur on one line, give the direct train. Example:
   Kebayoran → Rawa Buntu is direct on Lin Rangkasbitung; do not route via Tanah
-  Abang unless a live operator alert requires it.
+  Abang unless a live operator alert requires it. When comparing destination
+  stations/halts, include road distance (km) and traffic-aware last-mile ETA for
+  the relevant departure time; if live traffic/time is unavailable, label that
+  uncertainty instead of calling a stop “closer” as the sole reason.
 - **`references/mrt-lrt.md`** — MRT Jakarta, LRT Jakarta, LRT Jabodebek lines &
   stations. Official sites are JS-rendered; Wikipedia (`Jakarta_MRT`,
   `LRT_Jakarta`, `Jabodebek_LRT`) is the reliable static source.

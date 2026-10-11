@@ -62,6 +62,9 @@ spends tokens (the OCR workflow). Full step-by-step is in `UPDATE.md`.
    Baru tambahkan transit bila tidak ada layanan langsung, ada gangguan operasi,
    atau opsi transfer terbukti jauh lebih cepat/praktis. Jika menyarankan opsi
    transfer yang lebih cepat, tetap jelaskan opsi langsung yang lebih sederhana.
+   Untuk tiap kandidat, bandingkan **waktu total dari asal ke tujuan**, bukan
+   jarak peta saja: akses awal, waktu tunggu, waktu di kendaraan, transit, dan
+   perjalanan terakhir.
 3. **Pilih moda — optimalkan waktu dan biaya setelah rute langsung dicek.** Rail
    (MRT/LRT/KRL) is faster over distance and unaffected by traffic; Transjakarta
    reaches far more neighborhoods. Prefer a single rail line if both endpoints sit
@@ -123,6 +126,11 @@ JANGAN kirim — perbaiki dulu:
       arahkan ke hub/terminus berlawanan arah lalu balik lagi. Transit hanya jika
       perlu atau jelas memperbaiki waktu/praktis; bila ada, tetap sebut opsi
       langsung yang sederhana.
+- [ ] **Jarak bukan pengganti waktu tempuh.** Saat membandingkan stasiun/halte,
+      tampilkan jarak perjalanan darat dalam km (bedakan dari jarak garis lurus)
+      dan estimasi menit untuk moda terakhir. Pertimbangkan kondisi lalu lintas
+      pada jam berangkat yang diminta. Jangan menyebut opsi terbaik hanya karena
+      “lebih dekat”.
 - [ ] **MRT dipertimbangkan.** Kalau bisa masuk jaringan MRT via TJ/KRL, itu
       harus jadi salah satu opsi.
 - [ ] **Setiap leg punya: kode rute + halte naik + arah + halte turun.**
@@ -148,6 +156,23 @@ when required to change service, an operator alert calls for it, or a clearly
 better alternative is explained alongside the direct option. Check last-mile
 distance before adding any extra leg; if close, offer walk/ojol rather than
 another transit.
+
+**Bandingkan jarak dan waktu, bukan kata “dekat” (all modes).** Saat memilih di
+antara stasiun/halte atau last-mile yang berbeda, cek rute darat aktual dan
+laporkan jarak jalan/berkendara dalam km serta perkiraan waktu menit. Tandai bila
+angka hanya jarak garis lurus; jangan menyamakannya dengan jarak jalan. Untuk
+segmen bus/ojol/taksi/jalan kaki, perhitungkan kondisi lalu lintas **pada waktu
+perjalanan yang ditanyakan** (atau jam tiba yang jelas dari konteks). Bandingkan
+door-to-door: akses awal + tunggu + perjalanan utama + transit + last-mile.
+Stasiun yang sedikit lebih jauh bisa lebih cepat bila akses jalannya lancar;
+stasiun yang lebih dekat belum tentu praktis bila jalan menuju tujuan macet.
+
+Gunakan estimasi lalu lintas/rute terkini bila tersedia. Jika tidak ada data live,
+waktu perjalanan, atau waktu berangkat, **jangan mengarang status macet atau ETA**:
+sebutkan bahwa kondisi belum terverifikasi, berikan jarak yang memang diketahui,
+dan bedakan estimasi normal dari estimasi saat jam sibuk. Untuk jadwal yang belum
+ditentukan, jelaskan bahwa peringkat opsi bisa berubah antara jam sibuk dan
+lengang; tanyakan jam berangkat hanya jika itu menentukan pilihan.
 
 **Transjakarta, angkot, feeder, Mikrotrans: selalu sebut kode rute spesifik.**
 Jangan tulis "naik TJ", "Koridor 13", atau "angkot" saja. Dalam satu koridor bisa
@@ -184,10 +209,11 @@ area itu, sebutin opsi lain (ojek online, KRL, dll.) — jangan tulis "naik angk
 sebagai solusi. Cek selalu `references/transjakarta-feeder.md` dan
 `references/routes-haltes.md` untuk rute yang tersedia.
 
-**Opsi jalan kaki/ojol setelah turun.** Kalau tujuan akhir dekat dari stasiun/
-halte terakhir (~1-2 km), sebutkan jarak dan opsi (jalan kaki / ojol). Jangan
-langsung tambah transit ke stasiun lain yang lebih "dekat" kalau jaraknya udah
-reasonable dari stasiun sekarang.
+**Opsi jalan kaki/ojol setelah turun.** Sebutkan jarak rute dan estimasi waktu
+jalan kaki/ojol bila tersedia. Jarak sekitar 1–2 km bisa ditawarkan sebagai
+opsi, bukan otomatis disebut dekat/layak jalan: cek akses jalan, cuaca/keamanan
+bila relevan, dan lalu lintas pada jamnya. Jangan tambah transit hanya karena
+stasiun lain tampak lebih dekat berdasarkan garis lurus.
 
 **Selalu pertimbangkan kombinasi multi-moda.** Jangan cuma kasih opsi per sistem
 (KRL doang, TJ doang). Kalau rute melibatkan interchange hub yang terintegrasi
