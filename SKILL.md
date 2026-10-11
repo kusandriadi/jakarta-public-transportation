@@ -131,6 +131,11 @@ JANGAN kirim — perbaiki dulu:
       dan estimasi menit untuk moda terakhir. Pertimbangkan kondisi lalu lintas
       pada jam berangkat yang diminta. Jangan menyebut opsi terbaik hanya karena
       “lebih dekat”.
+- [ ] **Klaim komparatif wajib ada angkanya.** Jika membandingkan dua stasiun,
+      halte, atau opsi dan mengatakan A “lebih dekat/jauh” daripada B, tampilkan
+      jarak A-ke-tujuan dan B-ke-tujuan dalam km secara eksplisit. Tanpa angka
+      jarak yang bisa diverifikasi, jangan simpulkan mana yang lebih dekat,
+      lebih jauh, atau lebih praktis.
 - [ ] **MRT dipertimbangkan.** Kalau bisa masuk jaringan MRT via TJ/KRL, itu
       harus jadi salah satu opsi.
 - [ ] **Setiap leg punya: kode rute + halte naik + arah + halte turun.**
@@ -166,6 +171,11 @@ perjalanan yang ditanyakan** (atau jam tiba yang jelas dari konteks). Bandingkan
 door-to-door: akses awal + tunggu + perjalanan utama + transit + last-mile.
 Stasiun yang sedikit lebih jauh bisa lebih cepat bila akses jalannya lancar;
 stasiun yang lebih dekat belum tentu praktis bila jalan menuju tujuan macet.
+Setiap kalimat perbandingan seperti “Cisauk lebih dekat/praktis daripada Serpong”
+WAJIB disertai jarak numerik dari **masing-masing** titik ke tujuan, misalnya
+“Cisauk → tujuan: X km; Serpong → tujuan: Y km”. Dilarang menyimpulkan “Serpong
+lebih jauh” atau memilih titik berdasarkan kedekatan jika jarak kedua opsi belum
+diperiksa.
 
 Gunakan estimasi lalu lintas/rute terkini bila tersedia. Jika tidak ada data live,
 waktu perjalanan, atau waktu berangkat, **jangan mengarang status macet atau ETA**.
@@ -175,6 +185,9 @@ lebih pendek untuk segmen jalan tersebut. Nyatakan singkat bahwa perbandingan it
 berdasarkan jarak karena data macet tidak tersedia—jangan menyimpulkan rute itu
 pasti lebih cepat. Tanyakan jam berangkat hanya jika diperlukan untuk mencari
 data lalu lintas yang relevan.
+Jika jarak rute aktual kedua pilihan juga tidak bisa diverifikasi, jangan gunakan
+kata “lebih dekat/jauh/praktis”; katakan bahwa perbandingan jaraknya belum
+terverifikasi dan jangan memilih pemenang berdasarkan asumsi.
 
 **Transjakarta, angkot, feeder, Mikrotrans: selalu sebut kode rute spesifik.**
 Jangan tulis "naik TJ", "Koridor 13", atau "angkot" saja. Dalam satu koridor bisa
